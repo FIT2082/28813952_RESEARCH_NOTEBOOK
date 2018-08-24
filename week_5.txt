@@ -1,0 +1,14 @@
+Week 05
+
+This week saw a lot of work being done to have the microscopium program running on new data, the BBBC021 dataset.
+First, a portion of the dataset was downloaded, then a python script was created wherein the data processing steps were performed.
+The dataset contains 4 images per well image that must be stitched together. Furthermore there are three channels for each image, RGB, that must be stacked to compose a complete, full colour image.
+Ideally, the preprocessing steps (those performed before feature extraction), will occour in the following order.
+1. stitching 4 smaller images into one full image
+2. an illumination processess, that will darken all pixels below a certain threshold, and brighten the others.
+3. the stacking of hte three RGB layers.
+
+After all this, our images should be ready to have features extracted with the UMAP/t-SNE/PCA algorithm (whichever is chosen)
+
+Unfrtunately, we ran into trouble with the find_background_illumination() funciton for part two, and our current method uses numpy to generate a radius in which to sample pixels. The numpy funciton returns an errenous, extremely large value. This ultimately results in a Python MemoryError. Juan has a workarround that does not involve using numpy for this part, that is yet to be implemented.
+
