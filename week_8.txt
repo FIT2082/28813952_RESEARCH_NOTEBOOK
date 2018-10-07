@@ -1,0 +1,15 @@
+Week 08
+
+## Installed anaconda
+This was quite tricky to do given the group permissions on the remote machine. We wanted it such that we have one install that all users can use, rather than each of us installing anaonding and each keeping the our microscopium installs up to date / in line. To make things more confusing, there was an install of anaconda in a separate user's home folder that I was able to access simply by quering conda --list.
+Eventually conda was installed and all users are able to use it from the one location.
+
+## Installed microscopium
+
+
+## Ran a trial/demo from the machine
+
+
+## Pull request?
+
+
