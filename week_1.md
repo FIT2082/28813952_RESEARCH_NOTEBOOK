@@ -1,10 +1,12 @@
 # Week 1
 
-##Assigned Research Topic:
+## Assigned Research Topic:
 Microscopium: clustering and interactive visualisation of high content screening images
 
 *Research Project #*: 17
+
 *Research Supervisor*: Juan Nunez-Iglesias
+
 *Research Team*: James Ryan, Draga Doncila Pop
 
 *Microscopium Github*: https://github.com/microscopium
