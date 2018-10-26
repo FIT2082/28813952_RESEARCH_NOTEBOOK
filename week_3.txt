@@ -1,9 +1,0 @@
-week 03
-
-This week was spent largely on the Project Specification assignment.
-The specificaiton included:
-- introduction painitng a narative to motivate the research
-- aims and research questions
-- methodology
-- A timeline of task deadlines/expected completion dates
-
